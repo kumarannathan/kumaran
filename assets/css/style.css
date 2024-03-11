@@ -389,9 +389,7 @@ main {
 
 .info_more-btn span { display: none; }
 
-#vr{
-  filter: invert(84%) sepia(91%) saturate(728%) hue-rotate(311deg) brightness(106%) contrast(98%);
-}
+
 .sidebar-info_more {
   opacity: 0;
   visibility: hidden;
@@ -1236,7 +1234,37 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
+#vr{
+  filter: invert(84%) sepia(91%) saturate(728%) hue-rotate(311deg) brightness(106%) contrast(98%);
+}
 
+#apple{
+  scale: .8;
+  
+}
+
+#bnb{
+  scale: .8;
+}
+
+#ws{
+  scale: .7;
+
+}
+
+.social-list .social-item .social-link {
+  color: white;
+}
+
+#soc{
+  color: white;
+}
+.project-img {
+  width : 250px;
+  height: 250px;
+  border-radius: 15px;
+  
+}
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
@@ -1263,7 +1291,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog-banner-box { height: auto; }
 
 }
-
 
 
 
@@ -1494,19 +1521,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(33.33% - 35px); }
 
-#apple{
-  scale: .8;
-  
-}
 
-#bnb{
-  scale: .8;
-}
-
-#ws{
-  scale: .7;
-
-}
   /**
    * #RESUME
    */
@@ -1528,13 +1543,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   scale: 1.3;
 }
 
-.social-list .social-item .social-link {
-  color: white;
-}
 
-#soc{
-  color: white;
-}
 
   /**
    * #PORTFOLIO, BLOG
