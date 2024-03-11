@@ -330,6 +330,9 @@ main {
   align-items: center;
   gap: 15px;
 }
+#me{
+  border-radius: 15px;
+}
 
 .avatar-box {
   background: var(--bg-gradient-onyx);
@@ -386,6 +389,9 @@ main {
 
 .info_more-btn span { display: none; }
 
+#vr{
+  filter: invert(84%) sepia(91%) saturate(728%) hue-rotate(311deg) brightness(106%) contrast(98%);
+}
 .sidebar-info_more {
   opacity: 0;
   visibility: hidden;
@@ -764,6 +770,9 @@ main {
   #RESUME
 \*-----------------------------------*/
 
+.position{
+  font-weight: lighter;
+}
 .article-title { margin-bottom: 30px; }
 
 
@@ -1034,6 +1043,12 @@ main {
   #BLOG
 \*-----------------------------------*/
 
+.blog h3{
+  color: white;
+  margin-bottom: 20px;
+  font-weight: 100;
+  font-size: smaller;
+}
 .blog-posts { margin-bottom: 10px; }
 
 .blog-posts-list {
@@ -1220,9 +1235,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn:disabled:hover { background: var(--border-gradient-onyx); }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
-
-
-
 
 
 /*-----------------------------------*\
@@ -1482,8 +1494,19 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(33.33% - 35px); }
 
+#apple{
+  scale: .8;
+  
+}
 
+#bnb{
+  scale: .8;
+}
 
+#ws{
+  scale: .7;
+
+}
   /**
    * #RESUME
    */
@@ -1501,6 +1524,17 @@ textarea.form-input::-webkit-resizer { display: none; }
   .skills-item:not(:last-child) { margin-bottom: 25px; }
 
 
+.social-list{
+  scale: 1.3;
+}
+
+.social-list .social-item .social-link {
+  color: white;
+}
+
+#soc{
+  color: white;
+}
 
   /**
    * #PORTFOLIO, BLOG
@@ -1512,7 +1546,12 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .blog-content { padding: 25px; }
 
-
+  .project-img {
+    width : 250px;
+    height: 250px;
+    border-radius: 15px;
+    
+  }
 
   /**
    * #CONTACT
@@ -1755,6 +1794,7 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog-banner-box { height: 230px; }
 
 }
+
 
 
 
